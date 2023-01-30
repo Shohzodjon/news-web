@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full relative">
+  <div class="w-full relative h-12">
     <label
       for="search__input"
       class="absolute top-[55%] translate-y-[-50%] left-[23px] cursor-pointer"
@@ -12,7 +12,7 @@
       id="search__input"
       autocomplete="off"
       v-model="searchVal"
-      class="py-[14px] pl-[56px] placeholder:text-secondaryBlue font-medium text-[17px] w-full rounded-lg outline-[2px] outline-transparent border-none bg-lightGrey transition-all duration-300 text-mainBlue"
+      class="py-[12px] pl-[56px] placeholder:text-secondaryBlue font-medium text-[17px] w-full rounded-lg outline-[2px] outline-transparent border-none bg-lightGrey transition-all duration-300 text-mainBlue"
     />
     <base-icon
       name="close_icon"

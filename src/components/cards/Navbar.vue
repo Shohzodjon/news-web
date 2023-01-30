@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white w-full">
+  <header class="bg-white w-full pb-[8.19px]">
     <div class="container">
       <div class="w-full min-h-[219px] max-h-[220px]">
         <img

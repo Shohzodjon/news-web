@@ -3,7 +3,7 @@
     <h3
       class="flex items-center transition-all duration-300 group-hover:underline text-2xl leading-[100%] font-bold text-mainBlue"
     >
-      <base-icon name="octagon_icon" class="mr-[10px]" />
+      <base-icon name="octagon_icon" class="mr-[10px] pt-1" />
       {{ title }}
     </h3>
     <div
@@ -14,7 +14,10 @@
         :class="[subtitle ? 'block' : 'hidden']"
         >{{ subtitle }}</span
       >
-      <base-icon name="arrow_icon" />
+      <base-icon
+        name="arrow_icon"
+        class="transition-all duration-300 hover:translate-x-1"
+      />
     </div>
   </div>
 </template>

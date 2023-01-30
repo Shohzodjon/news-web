@@ -1,7 +1,7 @@
 <template>
   <div class="w-max relative">
     <div
-      class="w-[138px] rounded-lg bg-lightGrey py-[14px] px-5 flex items-center gap-2"
+      class="w-[138px] rounded-lg bg-lightGrey py-[14px] px-5 flex items-center gap-2 h-12"
     >
       <input
         type="text"
