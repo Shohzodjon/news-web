@@ -1,12 +1,16 @@
 <template>
-  <div>
-    <div>
-      <img :src="img_url" alt="news img" />
+  <div class="group">
+    <div class="max-w-[820px] max-h-[461px] overflow-hidden rounded-2xl">
+      <img
+        :src="img_url"
+        alt="news img"
+        class="transition-all duration-300 group-hover:scale-105"
+      />
     </div>
     <div class="flex flex-col justify-between gap-5 mt-5">
       <div>
         <h3
-          class="text-mainBlue text-[32px] leading-[100%] font-bold mb-[10px]"
+          class="text-mainBlue text-[32px] leading-[100%] font-bold mb-[10px] transition-all duration-300 underline-offset-[3px] group-hover:underline"
         >
           {{ title }}
         </h3>

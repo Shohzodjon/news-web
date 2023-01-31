@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-[#D5DDF3] h-[1px] w-full my-5"></div>
-  <div class="flex justify-between gap-[14px]">
+  <div class="bg-[#D5DDF3] h-[1px] w-full my-5 card_line"></div>
+  <div class="flex justify-between gap-[14px] small__card group">
     <div class="flex flex-col justify-between max-w-[280px]">
       <h4
         class="text-[17px] text-mainBlue font-bold line-clamp-3 leading-[20.29px]"
@@ -16,7 +16,7 @@
       <img
         :src="img_url"
         alt="img"
-        class="w-full h-full object-cover rounded-lg"
+        class="w-full h-full object-cover rounded-lg transition-all duration-300 group-hover:scale-105"
       />
     </div>
   </div>
