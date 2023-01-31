@@ -259,4 +259,7 @@ sports.value = sportNews.filter((item) => item.id !== 1);
   font-size: 24px;
   line-height: 29.64px;
 }
+.all_news .card__wrapp img {
+  object-fit: fill;
+}
 </style>
