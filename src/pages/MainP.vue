@@ -54,14 +54,14 @@
           </h3>
           <div class="swiper__btns flex items-center gap-[13px]">
             <button
-              class="swiper-next w-7 h-7 rounded-lg border-[2px] border-mainBlue transition-all duration-300 hover:bg-[#737C981A]"
+              class="swiper-prev w-7 h-7 rounded-lg border-[2px] border-mainBlue transition-all duration-300 hover:bg-[#737C981A]"
               :class="[prev ? 'bg-mainBlue' : '']"
               aria-label="button"
             >
               <base-icon name="cherkov" class="rotate-180" />
             </button>
             <button
-              class="swiper-prev w-7 h-7 rounded-lg border-[2px] border-mainBlue transition-all duration-300 hover:bg-[#737C981A]"
+              class="swiper-next w-7 h-7 rounded-lg border-[2px] border-mainBlue transition-all duration-300 hover:bg-[#737C981A]"
               aria-label="button"
             >
               <base-icon name="cherkov" />
@@ -172,14 +172,14 @@
           </h3>
           <div class="swiper__btns flex items-center gap-[13px]">
             <button
-              class="swiper-next w-7 h-7 rounded-lg border-[2px] border-mainBlue transition-all duration-300 hover:bg-[#737C981A]"
+              class="swiper-prev2 w-7 h-7 rounded-lg border-[2px] border-mainBlue transition-all duration-300 hover:bg-[#737C981A]"
               :class="[prev ? 'bg-mainBlue' : '']"
               aria-label="button"
             >
               <base-icon name="cherkov" class="rotate-180" />
             </button>
             <button
-              class="swiper-prev w-7 h-7 rounded-lg border-[2px] border-mainBlue transition-all duration-300 hover:bg-[#737C981A]"
+              class="swiper-next2 w-7 h-7 rounded-lg border-[2px] border-mainBlue transition-all duration-300 hover:bg-[#737C981A]"
               aria-label="button"
             >
               <base-icon name="cherkov" />
@@ -194,7 +194,7 @@
           :modules="[Navigation, A11y]"
           @slideChange="onSlideChange"
           :loop="true"
-          :navigation="{ nextEl: '.swiper-next', prevEl: '.swiper-prev' }"
+          :navigation="{ nextEl: '.swiper-next2', prevEl: '.swiper-prev2' }"
         >
           <swiper-slide v-for="item in biznesData" :key="item.id">
             <normal-card :img_url="item.img" :title="item.title" />
