@@ -149,7 +149,7 @@
               :title="item.title"
               :news_type="item.news_type"
               :created_time="item.created_time"
-              card_style="max-w-[213px] max-h-[120px] min-h-[119px] min-w-[212px]"
+              card_style="!max-w-[213px] !max-h-[120px] !min-h-[119px] !min-w-[212px]"
             />
           </div>
           <download-btn />

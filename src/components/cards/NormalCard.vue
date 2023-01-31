@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col w-max gap-[15px] card__wrapp group">
     <div
-      class="max-w-[401px] max-h-[225px] rounded-lg min-h-[220px] overflow-hidden"
-      :class="[card_style ? card_style : '']"
+      class="rounded-lg min-h-[220px] overflow-hidden"
+      :class="[card_style ? card_style : 'max-w-[401px] max-h-[225px]']"
     >
       <img
         :src="img_url"
